@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+We have created a React application that shows the current weather based on your location.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+We have created this application using packages like
 
-## Available Scripts
+## -> moment - To fetch the date and day and time related,
+## -> OpenweatherAPI - https://openweathermap.org/
+## -> semantic UI - UI library 
 
-In the project directory, you can run:
+Please signup in the openweather https://openweathermap.org/ and in the profile, you can find the API key,if not then create a api key
 
-### `npm start`
+REACT_APP_API_URL = 'https://api.openweathermap.org/data/2.5'
+REACT_APP_API_KEY = please paste you API key here
+REACT_APP_ICON_URL = 'https://openweathermap.org/img/w'
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+In this application, we have a done a simple application where we learnt API fetching, rendering API data,
+Let's go through everything we have done so far.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### We Learned about State and Props
 
-### `npm test`
+State and Props are very powerful features in React. They are used to manage data and control its flow within different components.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In our application, we are managing the state which the state of the application. For example, the name of the city, the temperature, the date, humidity, and all. They vary from user to user, depending on their location.
 
-### `npm run build`
+Props, on the other hand, are used to pass data between components. We are getting the data in our app.js file, but we are reading it in weather.js. Remember, props can only be used to pass data from the parent component to the child component.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### We Used React Hooks
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+If you have used class components, then you must know about life-cycle methods. If not, they are the methods that are called when our page renders or re-renders. But we can't use life-cycle methods in functional components, as they are specially built for class components.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+So, React Hooks is the alternative. We have used two hooks in our application. One is useState, used to manage the state of the application. The other is the useEffect, which loads when the page is rendered or loaded.
 
-### `npm run eject`
+#### We Tried Out Semantic UI
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Semantic UI is a library for React which has predefined awesome components.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+That's all, folks. You can add more features to the app, like a five-day forecast, icons, and more.
