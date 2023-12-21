@@ -35,14 +35,14 @@ In our application, we are managing the state which the state of the application
 
 Props, on the other hand, are used to pass data between components. We are getting the data in our app.js file, but we are reading it in weather.js. Remember, props can only be used to pass data from the parent component to the child component.
 
-### We Used React Hooks
+####  We Used React Hooks
 
-If you have used class components, then you must know about life-cycle methods. If not, they are the methods that are called when our page renders or re-renders. But we can't use life-cycle methods in functional components, as they are specially built for class components.
+- If you have used class components, then you must know about life-cycle methods. If not, they are the methods that are called when our page renders or re-renders. But we can't use life-cycle methods in functional components, as they are specially built for class components.
 
-So, React Hooks is the alternative. We have used two hooks in our application. One is useState, used to manage the state of the application. The other is the useEffect, which loads when the page is rendered or loaded.
+- So, React Hooks is the alternative. We have used two hooks in our application. One is useState, used to manage the state of the application. The other is the useEffect, which loads when the page is rendered or loaded.
 
 #### We Tried Out Semantic UI
 
-Semantic UI is a library for React that has predefined awesome components.
+- Semantic UI is a library for React that has predefined awesome components.
 
-That's all, folks. You can add more features to the app, like a five-day forecast, icons, and more.
+That's all, folks. You can add more features to the app, like a five-day forecast, icons, responsiveness, and more.
