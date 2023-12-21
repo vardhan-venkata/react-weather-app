@@ -2,11 +2,13 @@
 
 #### <h1>🌐 React Current Location Weather ⛈ APP 🌐</h1>
 
-###Description<hr>
+### Description<hr>
 
 - This is weather forecasting app developed in the react using semantic UI framework, openweather API.It will fetch the current location, using longitude and latitude and will show the weather details.
 
-Demo URL<hr>
+#### Demo URL<hr>
+
+https://vardhan-venkata.github.io/react-weather-app/
 
 ## Packages Used <hr/>
 
