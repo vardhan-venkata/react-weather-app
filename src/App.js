@@ -7,8 +7,8 @@ const APIKey = process.env.REACT_APP_API_KEY;
 const weatherAPIURl = process.env.REACT_APP_API_URL;
 
 function App() {
-  const [longitude, setLongitude] = useState([]);
-  const [latitude, setLatitude] = useState([]);
+  const [longitude, setLongitude] = useState();
+  const [latitude, setLatitude] = useState();
   const [weatherAPIData, setWeatherAPIData] = useState([]);
 
   async function getWeather() {
