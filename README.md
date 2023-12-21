@@ -1,16 +1,26 @@
-We have created a React application that shows the current weather based on your location.
+### 🤗🤗 Happing Coding 🤗🤗
 
-We have created this application using packages like
+#### <h1>🌐 Responsive React Weather ⛈ Forecast APP 🌐</h1>
 
-## -> moment - To fetch the date and day and time related,
-## -> OpenweatherAPI - https://openweathermap.org/
-## -> semantic UI - UI library 
+###Description<hr>
 
-Please signup in the openweather https://openweathermap.org/ and in the profile, you can find the API key,if not then create a api key
+- This is weather forecasting app developed in the react using semantic UI framework, openweather API.It will fetch the current location, using longitude and latitude and will show the weather details.
 
-REACT_APP_API_URL = 'https://api.openweathermap.org/data/2.5'
-REACT_APP_API_KEY = please paste you API key here
-REACT_APP_ICON_URL = 'https://openweathermap.org/img/w'
+Demo URL<hr>
+
+## Packages Used <hr/>
+
+- moment - To fetch the date and day and time related,
+- OpenweatherAPI - https://openweathermap.org/
+- semantic UI - UI library
+
+## Usage <hr/>
+
+- Please signup in the openweather https://openweathermap.org/ and in the profile, you can find the API key,if not then create a api key
+
+- REACT_APP_API_URL = 'https://api.openweathermap.org/data/2.5'
+- REACT_APP_API_KEY = please paste you API key here
+- REACT_APP_ICON_URL = 'https://openweathermap.org/img/w'
 
 In this application, we have a done a simple application where we learnt API fetching, rendering API data,
 Let's go through everything we have done so far.
