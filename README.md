@@ -1,6 +1,6 @@
 ### 🤗🤗 Happing Coding 🤗🤗
 
-#### <h1>🌐 Responsive React Weather ⛈ Forecast APP 🌐</h1>
+#### <h1>🌐 React Current Location Weather ⛈ APP 🌐</h1>
 
 ###Description<hr>
 
