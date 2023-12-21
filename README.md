@@ -4,7 +4,7 @@
 
 ### Description<hr>
 
-- This is weather forecasting app developed in the react using semantic UI framework, openweather API.It will fetch the current location, using longitude and latitude and will show the weather details.
+- This is a weather forecasting app developed in the react using semantic UI framework, openweather API. It will fetch the current location, using longitude and latitude, and will show the weather details.
 
 #### Demo URL<hr>
 
@@ -12,19 +12,19 @@ https://vardhan-venkata.github.io/react-weather-app/
 
 ## Packages Used <hr/>
 
-- moment - To fetch the date and day and time related,
+- moment - To fetch the date and day and time-related,
 - OpenweatherAPI - https://openweathermap.org/
 - semantic UI - UI library
 
 ## Usage <hr/>
 
-- Please signup in the openweather https://openweathermap.org/ and in the profile, you can find the API key,if not then create a api key
+- Please sign in to the open weather https://openweathermap.org/ and the profile, you can find the API key, if not then create a API key
 
 - REACT_APP_API_URL = 'https://api.openweathermap.org/data/2.5'
-- REACT_APP_API_KEY = please paste you API key here
+- REACT_APP_API_KEY = Please paste your API key here
 - REACT_APP_ICON_URL = 'https://openweathermap.org/img/w'
 
-In this application, we have a done a simple application where we learnt API fetching, rendering API data,
+In this application, we have done a simple application where we learned API fetching, rendering API data,
 Let's go through everything we have done so far.
 
 #### We Learned about State and Props
@@ -43,6 +43,6 @@ So, React Hooks is the alternative. We have used two hooks in our application. O
 
 #### We Tried Out Semantic UI
 
-Semantic UI is a library for React which has predefined awesome components.
+Semantic UI is a library for React that has predefined awesome components.
 
 That's all, folks. You can add more features to the app, like a five-day forecast, icons, and more.
