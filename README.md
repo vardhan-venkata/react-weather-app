@@ -29,11 +29,11 @@ Let's go through everything we have done so far.
 
 #### We Learned about State and Props
 
-State and Props are very powerful features in React. They are used to manage data and control its flow within different components.
+- State and Props are very powerful features in React. They are used to manage data and control its flow within different components.
 
-In our application, we are managing the state which the state of the application. For example, the name of the city, the temperature, the date, humidity, and all. They vary from user to user, depending on their location.
+- In our application, we are managing the state which the state of the application. For example, the name of the city, the temperature, the date, humidity, and all. They vary from user to user, depending on their location.
 
-Props, on the other hand, are used to pass data between components. We are getting the data in our app.js file, but we are reading it in weather.js. Remember, props can only be used to pass data from the parent component to the child component.
+- Props, on the other hand, are used to pass data between components. We are getting the data in our app.js file, but we are reading it in weather.js. Remember, props can only be used to pass data from the parent component to the child component.
 
 ####  We Used React Hooks
 
